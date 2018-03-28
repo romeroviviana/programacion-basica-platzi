@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adivina donde pesas menos</title>
+</head>
+<body>
+	<h1>Tu peso en otro planeta</h1>
+	<p>En la tierra pesas distinto que en marte o jupiter</p>
+	<script>
+		var g_tierra = 9.8;
+		var g_marte = 3.7;
+		var g_jupiter = 24.8;
+		var peso_tierra = 77;
+		var peso_final;
+		peso_final = (peso_tierra*g_marte)/g_tierra;
+		document.write(peso_final);
+	</script>
+</body>
+</html>
