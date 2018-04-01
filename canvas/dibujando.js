@@ -25,8 +25,13 @@ for(l=0; l<lineas; l++){
 }
 dibujarLinea(colorLinea2, 299, 1, 299, 299);
 
-
-
+l = 0;
+while(l < lineas){
+	a = 10 * l;
+	b = 10 * (l+1);
+	dibujarLinea(colorLinea1, a, 0, 300, b);
+	l++;
+}
 
 function dibujarLinea(color, xinicial, xfinal, yinicial, yfinal){
 	lienzo.beginPath();
