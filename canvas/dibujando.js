@@ -1,3 +1,4 @@
+
 var d = document.getElementById("dibujito");
 var texto = document.getElementById("texto_linea");
 var boton = document.getElementById("botoncito");
@@ -30,4 +31,5 @@ function dibujoPorClick(){
 	dibujarLinea(colorLinea1, 1, 1, 1, ancho-1);
 	dibujarLinea(colorLinea1, 1, ancho-1, ancho-1, ancho-1);
 }
+
 dibujarLinea("red", 100, 200, 150, 250);

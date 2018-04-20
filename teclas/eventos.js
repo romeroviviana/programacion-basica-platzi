@@ -43,6 +43,7 @@ function dibujarMouse(){
 	dibujarLinea("purple", x, y, x - ancho, y, papel);
 }
 
+
 document.addEventListener("keyup", dibujarTeclado);
 var cuadrito = document.getElementById("are_de_dibujo");
 var papel = cuadrito.getContext("2d");
