@@ -62,7 +62,7 @@ function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal, lienzo){
 }
 
 function dibujarTeclado(evento) {	
-	var colorcito = "purple";
+	var colorcito = "pink";
 	var ancho = 10;
 	switch(evento.keyCode){
 		case teclas.LEFT:
